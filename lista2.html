@@ -1,0 +1,130 @@
+	<!--1) O que é CSS? Que tipo de modificações podem ser feitas em uma página utilizando CSS? Crie um exemplo.
+	R: O CSS é usado para estilizar elementos escritos em uma linguagem de marcação como o HTML; ao ultilizar o CSS modificações no layout 
+	da página serão efetuadas, dando uma melhor visibilidade a página. -->
+
+	<!-- 2) Qual é a diferença entre CSS em linha, interno e externo?
+	R: CSS interno: vinculado a tag <head>;
+	   CSS externo: feito em um arquivo .css externo;
+	   CSS em linha: usado para uma tag HTML específica, o atributo  <style> é usado para formatar uma tag HTML específica.-->
+
+	 <!--3) Crie uma página que utilize pelo menos duas propriedades CSS para o fundo da tela e duas para a fonte do texto.-->
+	 
+	<!--4) Analisando os arquivos abaixo e supondo que ambos encontram-se no mesmo diretório, qual é o efeito do estilo do 
+	 arquivo estilo.css aplicado sobre o arquivo index.html?
+	 R: Não irá resultar em nenhum efeito de estilo na página, pois a propriedade background-size serve para modificar o 
+	 tamanho de uma imagem de fundo, e no caso não há nehuma imagem.-->
+	 
+	<!-- 5) Qual é a função da propriedade background-size? Crie um código que demonstre o uso desta propriedade.
+	R: É utilizada para definir o tamanho de uma imagem de fundo.-->
+
+	<!-- 6) Cite pelo menos duas vantagens de se utilizar CSS.
+	R: Economiza-se tempo de criação e manutenção do site, redução do código HTML, maior eficiência no gerenciamento do Layout. -->
+
+	<!-- 7) André está criando um website de notícias e tomou uma decisão: vai marcar tanto os títulos de notícias quanto os textos com 
+	conteúdos de notícias como parágrafos (usando a tag <p>), pois, segundo ele, isso facilita a marcação e a legibilidade da página.
+	Assim, as alterações no estilo da fonte para textos que são títulos de notícias e conteúdos de notícias serão feitas por meio de CSS 
+	(por exemplo, definindo valor maior na propriedade font-size quando os parágrafos forem títulos de notícias). 
+	André tomou a decisão certa? Justifique.
+	R: Não, pois o correto seria utilizar a tag <h1> para os títulos das notícias e a tag <p> 
+	para o conteúdo das notícias, até porque quando precisar ser modificado, será mais prático. -->
+
+	<!-- 8) Possuindo uma tag <h1> no documento HTML, qual seletor CSS aplicaria algum estilo nesta tag?
+		()<h1>
+		().h1
+		()#h1
+		(x)h1
+		()Nenhuma das alternativas anteriores -->
+	
+	<!-- 9) Como serão estilizados os cabeçalhos h1 com base nos valores definidos abaixo?
+		h1 {
+		text-align: center;
+		text-decoration: line-through;
+		font-style: italic;
+	}
+	R: O texto presente dentro do h1 ficará no centro na página, ficará tachado e em itálico.
+ -->
+
+ <!-- 10) Crie uma página estilizada da seguinte forma:
+		Com uma imagem de fundo, com repetição horizontal (lado a lado) e tamanho 100x100 pixels;
+		Com links em negrito, sem sublinhado e com cor de fundo verde e texto em branco;
+		Com elementos <mark> sublinhados e em negrito;
+		Parágrafos em verde.
+ -->
+
+<!-- 11) (5,0 EXTRA!) Utilizando HTML e CSS, implemente o logotipo da figura abaixo: -->
+
+<!-- 12) (0,5 EXTRA!) A imagem abaixo está disponível aqui. Crie uma página com esta imagem mapeada. O céu deve possuir um link para as imagens do Google sobre céu, as pirâmides devem possuir um link para as imagens do Google sobre pirâmides e a areia deve possuir um link para as imagens do Google sobre areia. Dica: utilize a tag <map> e a página http://www.image-maps.com/. -->
+ 
+ <!--Resposta complementares 1,3,5-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ 	<title> lhamas fofinhas</title>
+ 	<meta charset="utf-8"> 
+ 	<link rel="stylesheet" type="text/css" href="lista2.css">
+</head>
+<body>
+ 	<div class="conteudo">
+	 	<h1>LHAMAS</h1>
+		<div id="poema">
+			<p> 
+				Eu queria lhama <br>
+				Mas na real, é lama<br>
+				Eu queria lima,<br>
+				a laranja<br>
+				Ou um leme de barco<br>
+				um lume de luz<br>
+				um lema,  um livro<br>
+				Mas me grita o poema;<br>
+				lama!<br>
+				À lama...<br>
+				que muda a cor do rio...<br>
+				A lama<br>
+				que soterra os sonhos...<br>
+				Lama<br>
+				que respinga nos retratos...<br>
+				Eu queria uma lama<br>
+				onde brincam porcos<br>
+				Mas são Corpos,<br>
+				emporcalhados de lama!
+			</p>
+			<p>
+				Quisera eu o barro, moldando<br>
+				panelas<br>
+				baianas<br>
+				jarros<br>
+				toda sorte de artes...<br>
+				Mas são malditos barros,<br>
+				amálgamas de mercúrio e sangue!
+			</p>
+			<p>
+				O barro:<br>
+				início e fim,<br>
+				a origem e o destino,<br>
+				base e esteio...<br>
+				Mais o cheiro bom de barro,<br>
+				que co'a chuva vem...<br>
+				O barro do barroco,<br>
+				o Barros de Manuel,<br>
+				o barro do joão-de barro...<br>
+				O anagrama de lama é alma,<br>
+				dá-lhe poesia!
+			</p>
+			<p>
+				Mas não, são aflições de berros,<br>
+				lá vai a lama, já se foi Mariana!<br>
+				É barro vazada das mãos dum burro,<br>
+				barril de lama tsunami<br>
+				barrigas inchadas de radio-<br>
+				ativos bários,<br>
+				rubros barros,<br>
+				bóiam os bagres,<br>
+				berram os bambinos,<br>
+				birrenta eu,<br><br>
+				pelos malditos barros,<br>
+				fundidos de cobiça e lapso!
+			</p>
+		</div>
+	</div>
+</body>
+</html>
